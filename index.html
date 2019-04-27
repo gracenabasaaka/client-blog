@@ -1,42 +1,101 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Client's Blog</title>
     <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Domine" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
+
 <body>
     <div>
         <header>
             <h1 class="title">Phebe's Corner</h1>
             <h2 class="sub">All Around The World<h2>
+                    <div class="navbar">
+                        <a class="active" href="#home">Home</a>
+                        <a href="#news">News</a>
+                        <a href="#contact">Contact</a>
+                        <a href="#about">About</a>
+                    </div>
         </header>
     </div>
-        <div class="container">
+    <hr>
+    <div class="container">
         <section>
             <h1 class="heading">new orleans</h1>
-            <h2 class="subheading">Beautiful culture</h2>
+            <h3 class="subheading">Beautiful culture</h3>
         </section>
         <main>
-            <p><img src="images/musician-2148871_640.jpg" alt="jazz musician" width="480px" height="640">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc luctus enim nec malesuada iaculis. Praesent viverra ex sit amet ipsum elementum mollis. Nullam congue tellus at magna ultricies, et molestie sem consectetur. Suspendisse nisi sem, iaculis ut molestie eu, consequat pretium nisl. Fusce dapibus, libero a ullamcorper dignissim, nisi nunc condimentum massa, ut dapibus ligula lectus tempus lorem. Morbi ullamcorper dictum justo vitae volutpat. Morbi mollis, erat quis egestas interdum, dui sapien tristique erat, sed maximus sapien enim id quam. Aliquam at velit in sem molestie fringilla. Nam rhoncus sodales ex, nec posuere enim bibendum a. In condimentum dui ac quam malesuada euismod.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu tincidunt velit, non varius leo. Donec tincidunt molestie urna, sed molestie nisl ultrices vel. Fusce suscipit sodales quam, aliquam viverra enim fermentum sed. Aenean lobortis felis id volutpat lacinia. Sed sed auctor sem. Cras diam tortor, convallis maximus lobortis consequat, porta vel mauris. Nullam placerat ipsum nec nunc placerat, nec pretium dolor elementum. Cras et elementum est. Donec sed tristique massa.
+            <div class="row">
+                <div class="column">
+                    <img src="images/mardi-gras-2606491_640.jpg" alt="grass" style="width:100%">
+                </div>
+                <div class="column">
+                    <img src="images/new-orleans-4008968_640.jpg" alt="trams" style="width:100%">
+                </div>
+                <div class="column">
+                    <img src="images/new-orleans-3893613_640.jpg" alt="musicians" style="width:100%">
+                </div>
+            </div>
+            <hr>
+            <h2>About New orleans</h2>
+            <p><img src="images/musician-2148871_640.jpg" alt="musician"> ipsum dolor sit amet, consectetur adipiscing
+                elit. Donec egestas, lorem id volutpat tristique, nibh
+                mi elementum sem, gravida fringilla nisi magna at lectus. Nulla sed diam venenatis, dictum risus ac,
+                ornare odio. Cras porta nibh vel tortor convallis bibendum. Sed at tortor quis lacus egestas tempus.
+                Duis placerat lobortis luctus. Morbi quis ligula et quam lobortis ullamcorper. In elit quam, pretium vel
+                rutrum at, auctor vel felis. Suspendisse euismod velit metus. Fusce interdum nunc in ligula vehicula
+                accumsan nec eget risus.
 
-            Nullam blandit leo eu erat dignissim pellentesque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed vulputate, orci ut fermentum vestibulum, nulla turpis interdum lorem, id suscipit elit diam pellentesque ligula. Nulla at lorem facilisis, ullamcorper leo eu, consequat metus. Aliquam dictum semper auctor. Phasellus fermentum bibendum libero, quis interdum magna tincidunt ut. Morbi efficitur, libero in ornare volutpat, ligula ligula luctus ex, in molestie mi quam vitae diam. Mauris vulputate pretium odio, eget pretium lectus venenatis consequat.
-            </p><img class="two" src="images/crawfish-99850_640.jpg" alt="red crawfish" width="640px" height="480">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu tincidunt velit, non varius leo. Donec tincidunt molestie urna, sed molestie nisl ultrices vel. Fusce suscipit sodales quam, aliquam viverra enim fermentum sed. Aenean lobortis felis id volutpat lacinia. Sed sed auctor sem. Cras diam tortor, convallis maximus lobortis consequat, porta vel mauris. Nullam placerat ipsum nec nunc placerat, nec pretium dolor elementum. Cras et elementum est. Donec sed tristique massa.
+                Fusce suscipit pellentesque diam ut blandit. Nulla interdum odio dolor, et lacinia lacus suscipit a.
+                Proin non lobortis ante. Vestibulum auctor ornare hendrerit. Morbi ac est vel magna vestibulum suscipit
+                ut ac dui. Sed id ultrices nulla. Fusce lorem leo, faucibus tempus risus sed, aliquam tincidunt neque.
+                Quisque egestas vel nibh id lobortis. Duis condimentum nibh ac diam vehicula elementum. Etiam finibus
+                lacinia magna id tincidunt. Morbi congue elit id orci posuere semper. Sed malesuada ac nulla ac
+                efficitur.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec egestas, lorem id volutpat tristique,
+                nibh mi elementum sem, gravida fringilla nisi magna at lectus. Nulla sed diam venenatis, dictum risus
+                ac, ornare odio. Cras porta nibh vel tortor convallis bibendum. Sed at tortor quis lacus egestas tempus.
+                Duis placerat lobortis luctus. Morbi quis ligula et quam lobortis ullamcorper. In elit quam, pretium vel
+                rutrum at, auctor vel felis. Suspendisse euismod velit metus. Fusce interdum nunc in ligula vehicula</p>
+            <hr>
+            <h2>The Food</h2>
+            <p><img src="images/coffee-3293499_640.jpg" alt="coffee" class="img2"> Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit. Vivamus aliquet, eros ut lacinia pharetra, mi
+                felis porta nisi, nec ornare arcu ligula vitae arcu. Vivamus vitae ultricies ligula. Cras quam quam,
+                sollicitudin at lacus non, auctor suscipit nisl. Pellentesque non erat imperdiet, aliquam arcu sit amet,
+                sagittis mi. Vestibulum ornare aliquam est eu luctus. Praesent sed accumsan augue, et lacinia velit.
+                Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris pretium
+                eros eget sodales pellentesque. Nulla ut quam vulputate, luctus sem vel, gravida dolor. Ut et urna vitae
+                arcu maximus tincidunt. Phasellus egestas tellus sed purus suscipit, eu viverra ante dapibus. Donec nibh
+                libero, lobortis sit amet dui eu, condimentum dapibus mauris. Proin ut sapien elementum, viverra nulla
+                vel, aliquam enim. Vivamus et arcu vitae nisl posuere aliquam vel nec erat. Nulla ut rutrum nibh,
+                consequat lacinia est.
 
-            Nullam blandit leo eu erat dignissim pellentesque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed vulputate, orci ut fermentum vestibulum, nulla turpis interdum lorem, id suscipit elit diam pellentesque ligula. Nulla at lorem facilisis, ullamcorper leo eu, consequat metus. Aliquam dictum semper auctor. Phasellus fermentum bibendum libero, quis interdum magna tincidunt ut. Morbi efficitur, libero in ornare volutpat, ligula ligula luctus ex, in molestie mi quam vitae diam. Mauris vulputate pretium odio, eget pretium lectus venenatis consequat.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu tincidunt velit, non varius leo. Donec tincidunt molestie urna, sed molestie nisl ultrices vel. Fusce suscipit sodales quam, aliquam viverra enim fermentum sed. Aenean lobortis felis id volutpat lacinia. Sed sed auctor sem. Cras diam tortor, convallis maximus lobortis consequat, porta vel mauris. Nullam placerat ipsum nec nunc placerat, nec pretium dolor elementum. Cras et elementum est. Donec sed tristique massa.
+                Donec sit amet mauris nec tortor aliquet consectetur eu nec justo. Aenean porta, tellus sit amet
+                eleifend mollis, eros urna maximus lectus, pretium tempor metus ante sit amet tortor. Nullam mattis ut
+                nisl eget malesuada. Fusce semper efficitur urna, vitae pretium ante tempus a. Aliquam in diam urna. Nam
+                feugiat sapien non felis luctus vestibulum. Aenean a nunc ipsum. Aenean molestie neque feugiat, dictum
+                turpis eu, maximus ligula. Nulla convallis auctor justo, non tincidunt sem luctus nec. Ut ut vestibulum
+                erat, quis congue lacus. Integer ultricies dolor mi, eget facilisis orci consequat at. Vivamus eu nisl
+                at sapien pulvinar vestibulum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur
+                ridiculus mus.
 
-            Nullam blandit leo eu erat dignissim pellentesque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed vulputate, orci ut fermentum vestibulum, nulla turpis interdum lorem, id suscipit elit diam pellentesque ligula. Nulla at lorem facilisis, ullamcorper leo eu, consequat metus. Aliquam dictum semper auctor. Phasellus fermentum bibendum libero, quis interdum magna tincidunt ut. Morbi efficitur, libero in ornare volutpat, ligula ligula luctus ex, in molestie mi quam vitae diam. Mauris vulputate pretium odio, eget pretium lectus venenatis consequat</p>
-            <p>Nullam blandit leo eu erat dignissim pellentesque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed vulputate, orci ut fermentum vestibulum, nulla turpis interdum lorem, id suscipit elit diam pellentesque ligula. Nulla at lorem facilisis, ullamcorper leo eu, consequat metus. Aliquam dictum semper auctor. Phasellus fermentum bibendum libero, quis interdum magna tincidunt ut. Morbi efficitur, libero in ornare volutpat, ligula ligula luctus ex, in molestie mi quam vitae diam. Mauris vulputate pretium odio, eget pretium lectus venenatis consequat</p>
-            <p>Nullam blandit leo eu erat dignissim pellentesque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed vulputate, orci ut fermentum vestibulum, nulla turpis interdum lorem, id suscipit elit diam pellentesque ligula. Nulla at lorem facilisis, ullamcorper leo eu, consequat metus. Aliquam dictum semper auctor. Phasellus fermentum bibendum libero, quis interdum magna tincidunt ut. Morbi efficitur, libero in ornare volutpat, ligula ligula luctus ex, in molestie mi quam vitae diam. Mauris vulputate pretium odio, eget pretium lectus venenatis consequat</p>
+                Fusce vehicula dui non ipsum ornare faucibus. Vivamus ac justo eget velit finibus blandit eu ut augue.
+                In hac habitasse platea dictumst. Nam eu pulvinar dolor, nec efficitur urna. Maecenas sit amet felis
+                nunc. Fusce lacinia nec metus eu interdum. Nulla fermentum ex sagittis nulla dignissim, eget luctus sem
+                congue. Etiam vulputate dignissim tincidunt. Quisque at justo ut tellus maximus molestie eget eu ipsum.
+                Praesent tincidunt turpis odio, dapibus hendrerit neque elementum non. Suspendisse interdum tristique ex
+                non consectetur. Nullam in augue a nisl convallis imperdiet in ac orci. Donec sodales auctor convallis.
+            </p>
         </main>
     </div>
-    <footer class="button">
-      <button>more infor</button> 
-      <button>contacts</button> 
-    </footer>
+    <div class="footer">
+        <button>more infor</button>
+        <button>contacts</button>
+    </div>
 </body>
+
 </html>
