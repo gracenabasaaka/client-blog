@@ -4,7 +4,7 @@ body {
 header {
         text-transform: uppercase;
         text-align: left;
-        font-family: cormorant+garamond;
+        font-style: normal;
         margin: 0;
         background-color: #B266B2;
     }
@@ -17,6 +17,7 @@ header {
     .navbar {
         overflow: hidden;
         background-color: #333;
+        max-width: 500px;
     }
       
     .navbar a {
@@ -26,6 +27,7 @@ header {
         padding: 14px 16px;
         text-decoration: none;
         font-size: 17px;
+
     }
       
     .navbar a:hover {
@@ -43,9 +45,11 @@ section {
 .heading {
     text-transform: capitalize;
     font-size: 45px;
+    font-style: normal;
 } 
 .subheading {
     font-size: 25px;
+    font-style: italic;
 }
 .column {
     float: left;
@@ -80,6 +84,7 @@ p {
 }
 h2 {
     font-size: 30px;
+    font-style: normal;
 }
 .img2 {
     float: left;
@@ -93,10 +98,15 @@ h2 {
     width: 100%;
     background-color: #4CAF50;
 }
-button  {
-    padding: 20px;
-    margin: 15px;
-}  
-button:hover {
-    background-color: purple;
-}    
+a:link, a:visited {
+    background-color: #4C4CFF;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: #993299;
+  }
